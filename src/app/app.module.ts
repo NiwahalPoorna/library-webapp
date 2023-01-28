@@ -13,6 +13,7 @@ import { BookviewComponent } from './bookview/bookview.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './footer/footer.component';
+import { BookviewDetailsComponent } from './bookview-details/bookview-details.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { FooterComponent } from './footer/footer.component';
     BookviewComponent,
     NavbarComponent,
     FooterComponent,
+    BookviewDetailsComponent,
   ],
   imports: [
     BrowserModule,

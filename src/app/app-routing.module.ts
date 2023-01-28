@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BookviewComponent } from './bookview/bookview.component';
 import { FooterComponent } from './footer/footer.component';
+import { BookviewDetailsComponent } from './bookview-details/bookview-details.component';
 
 const routes: Routes = [
   {path:'',redirectTo:'signin',pathMatch:'full'},
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path:"navbar",component:NavbarComponent},
   {path:"bookview",component:BookviewComponent},
   {path:"footer",component:FooterComponent},
+  {path:"bookviewdetails/:_id",component:BookviewDetailsComponent},
   
 
 

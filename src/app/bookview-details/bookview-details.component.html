@@ -1,0 +1,47 @@
+<section class="section-content padding-y bg" *ngIf="bookData">
+    <div class="container">
+
+    <article class="card">
+        <div class="card-body">
+                <div class="row">
+                    <aside class="col-md-6">
+                            <article class="gallery-wrap">
+                                <div class="card img-big-wrap">
+                                    <img src="{{bookData.image}}">
+                                </div> <!-- card img-big-wrap.// -->
+                                
+                            </article> <!-- gallery-wrap .end// -->
+                    </aside>
+                    <main class="col-md-6">
+                        <article>
+                            <h1 class="title">{{bookData.title}}</h1>
+                             
+    
+                            <hr>
+                
+                            <div class="mb-3">
+
+                                
+                                <p>{{bookData.description}}</p>
+                                
+                            </div>
+                            
+                           
+    
+          
+                       
+                            
+                               
+                           
+                            
+                        </article> <!-- product-info-aside .// -->
+                    </main> <!-- col.// -->
+                </div> <!-- row.// -->
+        </div> <!-- card-body.// -->
+    </article>
+   
+    </div>
+    
+
+</section>
+<!-- ========================= SECTION CONTENT END// ========================= -->

@@ -26,7 +26,7 @@ export class ViewService {
     return this.http.get<book[]>('http://localhost:3000/hotels');
   }
   
-  // getvila(id:string){
-  //   return this.http.get<hotel>(`http://localhost:3000/hotels/single/${id}`);
-  // }
+  getbook(_id:string){
+    return this.http.get<book>(`http://localhost:3000/hotels/${_id}`);
+  }
 }
